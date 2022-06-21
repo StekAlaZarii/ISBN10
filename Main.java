@@ -34,7 +34,7 @@ public class Main {
         int suma = 0;
         int kontrolna = 0;
 
-        ISBN = ISBN.replaceFirst(" ", "");
+        ISBN = ISBN.replaceAll(" ", "");
         ISBN = ISBN.replaceAll("-", "");
 
         if (ISBN.length() != 10 && ISBN.length() != 15) {
